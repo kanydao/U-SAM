@@ -1,27 +1,31 @@
-# CARE: A Large Scale CT Image Dataset and Clinical Applicable Benchmark Model for Rectal Cancer Segmentation
+# U-SAM
+<p align="left">
+    <img src="framework.png" width="100%" height="100%">
+</p>
 
-### Overview
 
-We provide our implementation of U-SAM in **u-sam.py**, **backbone.py** and  **segment_anything**. The **dataloaders** of **CARE** and **WORD** are also available in **dataset**.
 
-### U-SAM
+This repo holds the pytorch implementation of U-SAMt:<br />
 
-In **u-sam.py**, we introduced a novel U-shaped architecture to the SAM while retaining its promptable paradigm. Additionally, we provide codes for both the training and evaluating process as well. 
+**CARE: A Large Scale CT Image Dataset and Clinical Applicable Benchmark Model for Rectal Cancer Segmentation** 
+(https://arxiv.org/abs/2308.08283) \
 
-### Backbone
+### 1. Overview
 
-In **backbone.py**, we implemented U-SAM's convolutional upsampling and downsampling modules with minimal modification to the original UNet model. 
+We provide our implementation of U-SAM. The **dataloaders** of **CARE** and **WORD** are also available in **dataset**.
 
-### Segment_anything
+### 2. Pre-trained Weights
 
-In **segment_anything**, we made essential modifications to integrate the original SAM to our proposed U-shaped framework. 
+We utilized the SAM-ViT-B in our model, the pre-trained weights are supposed to be placed in the folder **weight**.
 
-### Dataset
+### 3. Citation
+If this code is helpful for your study, please cite:
 
-in **dataset**, we offer the dataloaders of CARE and WORD. In each dataloader, we illustrate how to load from the target dataset, perform data augmentation and generate valid prompt. 
-
-## Pre-trained Weights
-
-We utilized the SAM-ViT-B in our model, the pre-trained weights of which are supposed to be placed in the folder **weight**. Due to the file size limit, we can't attach the weights to the supplement  materials. So we alternatively provide open access to the official pre-trained weights of SAM-ViT-B as follows: 
-
-https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth. 
+```
+@article{zhang2023care,
+  title={CARE: A Large Scale CT Image Dataset and Clinical Applicable Benchmark Model for Rectal Cancer Segmentation},
+  author={Zhang, Hantao and Guo, Weidong and Qiu, Chenyang and Wan, Shouhong and Zou, Bingbing and Wang, Wanqin and Jin, Peiquan},
+  journal={arXiv preprint arXiv:2308.08283},
+  year={2023}
+}
+```
