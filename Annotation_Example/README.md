@@ -1,0 +1,1 @@
+We provide 5 **annotation examples** of CARE in this folder. Visual preview is available in the script **visualize_samples.ipynb**. 
