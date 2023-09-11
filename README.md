@@ -5,14 +5,14 @@
 
 
 
-This repo holds the pytorch implementation of U-SAMt:<br />
+This repo holds the pytorch implementation of U-SAM:<br />
 
 **CARE: A Large Scale CT Image Dataset and Clinical Applicable Benchmark Model for Rectal Cancer Segmentation** 
 (https://arxiv.org/abs/2308.08283) 
 
 ### 1. Overview
 
-We provide our implementation of U-SAM. The **dataloaders** of **CARE** and **WORD** are also available in **dataset**.
+We provide our implementation of U-SAM. The **CARE** dataset will be publicly available upon acceptance.The **dataloaders** of **CARE** and **WORD** are also available in **dataset**.
 
 ### 2. Pre-trained Weights
 
