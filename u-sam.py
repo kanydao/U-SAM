@@ -482,7 +482,7 @@ def main(args):
     # before eval, load checkpoint
     if args.eval:
         print('Load checkpoint')
-        checkpoint_path = 'usam.pth'
+        checkpoint_path = args.resume
         with open(checkpoint_path, 'rb') as f:
             checkpoint = torch.load(f, map_location='cpu')
             model.load_state_dict(checkpoint['model'])
