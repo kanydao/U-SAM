@@ -1,7 +1,8 @@
 # U-SAM
 <p align="left">
-    <img src="framework.png" width="100%" height="100%">
+    <img src="figures/framework.png" width="100%" height="100%">
 </p>
+
 
 
 
@@ -23,17 +24,13 @@ This repo holds the pytorch implementation of U-SAM:<br />
 
 ## Datasets
 
-#### Demo
-
 The following pictures are demonstrations of **CARE**.
 
-<img src="CARE.png" alt="CARE" style="zoom: 67%;" />
+<img src="figures/CARE.png" alt="CARE" style="zoom: 67%;" />
 
 
 
-![CARE2](CARE2.png)
-
-#### Links
+![CARE2](figures/CARE2.png)
 
 We conducted our experiments on **CARE** and **WORD**. Here we provide public access to these datasets. 
 
