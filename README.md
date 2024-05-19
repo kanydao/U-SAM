@@ -4,14 +4,7 @@
 </p>
 This repo holds the pytorch implementation of U-SAM:<br />
 
-**CARE: A Large Scale CT Image Dataset and Clinical Applicable Benchmark Model for Rectal Cancer Segmentation** ([https://arxiv.org/abs/2308.08283](https://arxiv.org/abs/2308.08283)) 
-
-## Key Contribution
-
-- We construct a large scale CT image dataset for rectal cancer segmentation named
-  **CARE**. Our dataset is now avaible on [[google drive]](https://drive.google.com/file/d/1X_JTfD8Ch-IxmG5VHtKk_xGZT336Fl1Q/view?usp=drive_link).
-- We develop a novel prompting model named U-SAM for the medical domain. 
-- Experimental results demonstrate that our proposed U-SAM model obtains substantial improvements compared to existing methods and achieves state-of-the-art not just on the CARE but also on another abdominal organ CT image segmentation dataset WORD ([Luo et al. 2022](https://github.com/HiLab-git/WORD)). 
+**Deep-learning-assisted segmentation of rectal cancer from CT scans: Development and validation of U-SAM**
 
 ## Model
 
