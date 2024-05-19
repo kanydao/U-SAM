@@ -2,10 +2,6 @@
 <p align="left">
     <img src="figures/framework.png" width="100%" height="100%">
 </p>
-
-
-
-
 This repo holds the pytorch implementation of U-SAM:<br />
 
 **CARE: A Large Scale CT Image Dataset and Clinical Applicable Benchmark Model for Rectal Cancer Segmentation** ([https://arxiv.org/abs/2308.08283](https://arxiv.org/abs/2308.08283)) 
