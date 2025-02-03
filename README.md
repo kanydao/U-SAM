@@ -88,7 +88,7 @@ The model checkpoint for evaluation should be specified via `--resume`.
 
 ## Feedback and Contact
 
-For further questions, pls feel free to contact [Hantao Zhang](mailto:kanydao@163.com).
+For further questions, pls feel free to contact [Shouhong Wan](mailto:wansh@ustc.edu.cn).
 
 ## Acknowledgement
 
