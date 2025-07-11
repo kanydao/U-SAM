@@ -99,10 +99,14 @@ Our code is based on [Segment Anything](https://github.com/facebookresearch/segm
 If this code is helpful for your study, please cite:
 
 ```
-@article{zhang2023care,
-  title={CARE: A Large Scale CT Image Dataset and Clinical Applicable Benchmark Model for Rectal Cancer Segmentation},
-  author={Zhang, Hantao and Guo, Weidong and Qiu, Chenyang and Wan, Shouhong and Zou, Bingbing and Wang, Wanqin and Jin, Peiquan},
-  journal={arXiv preprint arXiv:2308.08283},
-  year={2023}
+@article{zhang2025tuning,
+  title={Tuning vision foundation models for rectal cancer segmentation from CT scans},
+  author={Zhang, Hantao and Guo, Weidong and Wan, Shouhong and Zou, Bingbing and Wang, Wanqin and Qiu, Chenyang and Liu, Kaige and Jin, Peiquan and Yang, Jiancheng},
+  journal={Communications Medicine},
+  volume={5},
+  number={1},
+  pages={256},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
 }
 ```
