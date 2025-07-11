@@ -20,7 +20,7 @@ The following pictures are demonstrations of **CARE**.
 
 We conducted our experiments on **CARE** and **WORD**. Here we provide public access to these datasets. 
 
-**CARE**: [[paper]](https://arxiv.org/abs/2308.08283) [[dataset]](https://drive.google.com/file/d/1X_JTfD8Ch-IxmG5VHtKk_xGZT336Fl1Q/view?usp=drive_link)
+**CARE**: [[paper]](https://www.nature.com/articles/s43856-025-00953-0) [[dataset]](https://drive.google.com/file/d/1X_JTfD8Ch-IxmG5VHtKk_xGZT336Fl1Q/view?usp=drive_link)
 
 **WORD**: [[paper]](https://arxiv.org/pdf/2111.02403.pdf) [[dataset]](https://github.com/HiLab-git/WORD)
 
