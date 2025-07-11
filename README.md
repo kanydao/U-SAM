@@ -4,7 +4,7 @@
 </p>
 This repo holds the pytorch implementation of U-SAM:<br />
 
-**Tuning Vision Foundation Models for Rectal Cancer Segmentation from CT Scans: Development and Validation of U-SAM**
+**Tuning Vision Foundation Models for Rectal Cancer Segmentation from CT Scans**
 
 ## Model
 
